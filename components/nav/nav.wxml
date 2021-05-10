@@ -1,0 +1,6 @@
+<!--components/nav.wxml-->
+<view>
+  <block wx:for="{{dh}}" wx:key="index" class="ys1">
+    <image src="{{item.image_src}}" class="img1"></image>
+  </block>
+</view>

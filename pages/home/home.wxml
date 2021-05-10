@@ -1,0 +1,8 @@
+<!--pages/home/home.wxml-->
+<view>
+  <ss></ss>
+  <lbt-swiper list='{{list}}'></lbt-swiper>
+  <dh-nav dh="{{dh}}"></dh-nav>
+  <lc lc="{{lc}}"></lc>
+</view>
+

@@ -1,0 +1,4 @@
+/* pages/home/home.wxss */
+.ys1{
+  width: 100%;
+}

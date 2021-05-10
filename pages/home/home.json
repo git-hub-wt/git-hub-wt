@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "lbt-swiper": "/components/swiper/swiper",
+    "dh-nav":"/components/nav/nav",
+    "lc":"/components/lc/lc",
+    "ss":"/components/ss/ss"
+  }
+}

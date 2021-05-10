@@ -1,0 +1,21 @@
+<!--components/lc/lc.wxml-->
+<view>
+  <view class="bigbox">
+    <block wx:for="{{lc}}" wx:key="index">
+      <!-- 导航图 -->
+      <image src="{{item.floor_title.image_src}}" class="b"></image>
+      <!-- 左大图 -->
+      <view class="x-box">
+        <view class="xz-box">
+          <image src="{{item.product_list[0].image_src}}" class="t1"></image>
+        </view>
+        <view class="xy-box">
+          <image src="{{item.product_list[1].image_src}}" class="t2"></image>
+          <image src="{{item.product_list[2].image_src}}" class="t2"></image>
+          <image src="{{item.product_list[3].image_src}}" class="t2"></image>
+          <image src="{{item.product_list[4].image_src}}" class="t2"></image>
+        </view>
+      </view>
+    </block>
+  </view>
+</view>

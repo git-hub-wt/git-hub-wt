@@ -1,0 +1,27 @@
+<view class="bigbox">
+  <ss></ss>
+  <!-- 下层大盒子 -->
+  <view class="box">
+    <!-- 左盒子 -->
+    <view class="left_box">
+      <block wx:for="{{left_sj}}" wx:key="index">
+        <view  class="{{index == indexs ? 'aaa' :'z_wz'}}"  bindtap="addlist" data-index="{{index}}">{{item}}</view>
+      </block>
+    </view>
+    <!-- 右盒子 -->
+    <view class="right_box">
+      <!-- 分类名 -->
+      <block wx:for="{{goods}}" wx:key="index" wx:for-index="index1" wx:for-item="item1">
+        <view class="s_ys">/ {{item1.cat_name}} /</view>
+
+        <!-- 文字和图片盒子 -->
+        <block wx:for="{{item1.children}}" wx:key="index">
+          <view class="y_ys">
+            <image src="{{item.cat_icon}}" class="tp"></image>  
+            {{item.cat_name}}
+          </view>
+        </block>
+      </block>
+    </view>
+  </view>
+</view>

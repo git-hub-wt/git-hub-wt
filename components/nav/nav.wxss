@@ -1,0 +1,6 @@
+/* components/nav.wxss */
+.img1{
+  margin-left: 10rpx;
+  width: 170rpx;
+  height: 170rpx;
+}
